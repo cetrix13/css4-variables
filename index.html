@@ -12,7 +12,13 @@
 
 <body>
     <div class="main-header">
-        <h2 class="title">Make Me Hungry</h2></div>
+        <h2 class="title">Make Me Hungry</h2>
+        <span>Choose Theme
+            <a href="#" class="button" onclick="light();">LIGHT</a>
+            <a href="#" class="button" onclick="dark();">DARK</a>
+        </span>
+
+    </div>
     <div id="container">
         <div class="box">
             <img src="images/burgers.jpg">
@@ -88,7 +94,18 @@
 
     </div>
     <div class="main-footer">Web Designer Magazine 2018</div>
+<script type="text/javascript">
+    function setVariable(propertyName, value) {
+        document.documentElement.style.setProperty(propertyName, value);
+    }
 
+    function dark() {
+       setVariable('--main-bg', '#918d82');
+       setVariable('--alt-bg', '#57534c');
+       setVariable('--main-type', '#ddd');
+
+    }
+</script>
 </body>
 
 </html>
