@@ -1,3 +1,15 @@
+/******/
+/*
+/* CSS Variables
+/*
+/******/
+
+:root {
+    --primary: #ff368b;
+    --secondary: #0098ac;
+    --tertiary: #f06d06;
+}
+
 h2,
 h3 {
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -74,10 +86,10 @@ body {
     text-transform: uppercase;
 }
 .info.primary {
-    border-top: 8px solid #333;
+    border-top: 8px solid var(--primary);
 }
 .info.secondary {
-    border-top: 8px solid #333;
+    border-top: 8px solid var(--secondary);
 }
 .info.tertiary {
     border-top: 8px solid #333;
