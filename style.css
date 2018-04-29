@@ -1,0 +1,109 @@
+h2,
+h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.main-header {
+    color: #666;
+    background-color: #ccc;
+    text-align: center;
+    padding: 15px 0 10px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+.title {
+    font-size: 1.8em;
+    font-family: 'Shrikhand', cursive;
+}
+.button {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #333;
+    background-color: #fff;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+}
+.main-footer {
+    clear: both;
+    padding: 20px;
+    text-align: center;
+    background-color: #ccc;
+    color: #666;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    line-height: 1.4em;
+    background: #ddd;
+}
+* {
+    transition: all 0.2s linear;
+}
+#container {
+    box-sizing: border-box;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+.box {
+    float: left;
+    width: calc(25% - 40px);
+    margin: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    background: #ccc;
+    color: #666;
+}
+.box img {
+    max-width: 100%;
+}
+.info {
+    margin-top: -5px;
+    padding: 10px;
+}
+.info a {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.info.primary {
+    border-top: 8px solid #333;
+}
+.info.secondary {
+    border-top: 8px solid #333;
+}
+.info.tertiary {
+    border-top: 8px solid #333;
+}
+a.primary {
+    background: #333;
+}
+a.secondary {
+    background: #333;
+}
+a.tertiary {
+    background: #333;
+}
+span.primary {
+    font-weight: 600;
+    color: #333;
+}
+span.secondary {
+    font-weight: 600;
+    color: #333;
+}
+span.tertiary {
+    font-weight: 600;
+    color: #333;
+}
+h3 {
+    color: #333;
+    font-weight: 200;
+}
