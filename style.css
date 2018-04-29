@@ -17,6 +17,11 @@
     }
 }
 
+@media (max-width: 500px) {
+    :root {
+        --width:100%;
+    }
+}
 h2,
 h3 {
     font-family: 'Barlow Semi Condensed', sans-serif;
